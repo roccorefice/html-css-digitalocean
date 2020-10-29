@@ -1,0 +1,82 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  }
+
+/* utility classes */
+.txt_right{
+  text-align: right;
+}
+
+
+
+/****** HEADER ******/
+/* nav */
+nav{
+  height: 60px;
+}
+.logo{
+  height: 30px;
+  margin-top: 15px;
+}
+.nav_menu a{
+  color: #102756;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  text-decoration: none;
+}
+.sign_up{
+  border: 1px solid #004AFF;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}
+.txt_right li .sign_up{
+  color: #004AFF;
+}
+.menu_hamburger{
+  display: none;
+}
+
+
+
+/*** style for md (medium) screen ***/
+@media screen and (min-width: 769px) and (max-width: 1200px){
+  #site_header .nav_menu a{
+    display: none;
+  }
+  #site_header .nav_menu ul{
+    display: none;
+  }
+  .menu_hamburger{
+    margin-top: -60px;
+    display: block;
+    font-size: 20px;
+
+  }
+
+
+
+}
+
+
+
+
+/*** style for xs (small) screen ***/
+@media screen and (max-width: 768px){
+  #site_header .nav_menu a{
+    display: none;
+  }
+  #site_header .nav_menu{
+    display: none;
+  }
+  .menu_hamburger{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+
+
+
+}

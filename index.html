@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,14 +18,31 @@
     <nav class="nav-fixed-top">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2">
-            logo
+          <div class="col-lg-3 col-md-3 col-xs-3">
+            <a href="#">
+              <a href="#">
+                <img class="logo" src="assets/img/logo.png" alt="logoDigitalOcean">
+              </a>
+            </a>
           </div>
-          <div class="col-lg-5">
-            menu
+          <div class="col-lg-5 col-md-0 col-xs-0">
+            <ul class="list-inline nav_menu collapse navbar-collapse">
+              <li><a href="">Products <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="">Customers</a></li>
+              <li><a href="">Community <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="">Pricing</a></li>
+            </ul>
           </div>
-          <div class="col-lg-5">
-            login
+          <div class="col-lg-4 col-md-0 col-xs-0">
+            <ul class="list-inline nav_menu txt_right collapse navbar-collapse">
+              <li><a href="">Docs</a></li>
+              <li><a href="">Support <i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="">Login <i class="fas fa-chevron-down"></i></a></li>
+              <li><a class="sign_up" href="">Sign Up</a></li>
+            </ul>
+          </div>
+          <div class="menu_hamburger col-md-1 col-xs-5 txt_right navbar-toggle">
+            <a href="#"><i class="fas fa-bars"></i></a>
           </div>
         </div>
       </div>
@@ -168,7 +186,6 @@
         </div>
       </div>
     </div>
-
   </footer>
   <!-- /FOOTER -->
 </body>
