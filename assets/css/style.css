@@ -9,10 +9,7 @@
 .txt_left{
   text-align: left;
 }
-.reset{
-  margin: 0;
-  padding: 0;
-}
+
 
 
 
@@ -50,6 +47,8 @@
 /* jumbotron */
 .banner{
   background-image: url("../img/bg_jumbotron.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner h1{
   color: white;
@@ -138,6 +137,13 @@
 
 
 /****** MAIN ******/
+main h2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  margin-top: 70px;
+  color: #031B4E;
+}
 
 /* logos */
 .logos{
@@ -161,6 +167,21 @@
   margin-bottom: 40px;
   font-weight: 500;
 }
+
+/* deployment */
+.deployment p{
+  color: #5b6987;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.deployment_left button{
+  list-style: none;
+}
+
 
 
 
