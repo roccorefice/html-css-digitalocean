@@ -146,6 +146,7 @@ main h2{
   color: #031B4E;
 }
 
+
 /* logos */
 .logos{
   background-color: #F3F5F9;
@@ -168,6 +169,7 @@ main h2{
   margin-bottom: 40px;
   font-weight: 500;
 }
+
 
 /* deployment */
 .deployment{
@@ -267,6 +269,9 @@ main h2{
 
 
 /* features */
+.features{
+  padding-bottom: 70px;
+}
 .features .p_small{
   color: #5b6987;
   font-weight: 500;
@@ -276,6 +281,40 @@ main h2{
 }
 .features img{
   margin-top: 50px;
+}
+
+
+/* services */
+.services{
+  color: white;
+}
+.services{
+  background: linear-gradient(#0048C5, #001E9A);
+}
+.services h2{
+  color: white;
+  margin-bottom: 20px;
+}
+.row_test{
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+.border_bottom{
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+.location{
+  font-weight: 500;
+}
+.place{
+  color: #acbee5;
+  font-weight: 500;
+}
+.test{
+  text-align: right;
+}
+.test a{
+  color: #00d7d2;
 }
 
 
