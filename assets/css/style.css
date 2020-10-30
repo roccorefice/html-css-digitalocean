@@ -13,6 +13,7 @@
 
 
 
+
 /****** HEADER ******/
 
 /* nav */
@@ -169,6 +170,9 @@ main h2{
 }
 
 /* deployment */
+.deployment{
+  margin-bottom: 50px;
+}
 .deployment p{
   color: #5b6987;
   text-align: center;
@@ -177,10 +181,43 @@ main h2{
   line-height: 30px;
   margin-top: 5px;
   margin-bottom: 50px;
+
+}
+.deployment_left{
+  padding-left: 100px;
 }
 .deployment_left button{
-  list-style: none;
+  background-color: white;
+  padding: 10px;
+  font-size: 18px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 2px solid #CCCCCC;
 }
+.deployment_left button a{
+  color: #5b6987;
+  text-decoration: none;
+}
+.deploy_button:hover button{
+  border-left: 2px solid #005DFF;
+}
+.deployment h4{
+  color: #031B4E;
+  margin: 10px 0;
+}
+.deployment .p_small{
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  padding-right: 80px;
+  height: 40px;
+}
+/* #site_main .deployment .col-lg-6{
+  margin: 0;
+  padding: 0;
+} */
+
 
 
 
@@ -201,8 +238,13 @@ main h2{
   #site_header .banner h1{
     padding-right: 50px;
   }
-
-
+  #site_main .deployment .p_small{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    padding-right: 80px;
+    height: 110px;
+  }
 
 }
 
@@ -231,7 +273,27 @@ main h2{
   #site_main .logos .txt_right{
     text-align: center;
   }
+  #site_main .deployment .p_small{
+    padding-bottom: 100px;
 
+  }
+  #site_main .col-xs-12 .p_small{
+    padding-bottom: 0;
+    height: 10px;
+  }
+  #site_main .deployment_left{
+    padding-left: 30px;
+    padding-bottom: 10px;
+  }
+}
+
+/*** style for xs (Xsmall) screen ***/
+@media screen and (min-width: 767px){
+  #site_main .col-xs-12 .p_small{
+    padding-bottom: 0;
+  }
+
+  }
 
 
 
