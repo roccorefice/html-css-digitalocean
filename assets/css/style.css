@@ -43,6 +43,20 @@
 .menu_hamburger{
   display: none;
 }
+.sign-up:hover{
+  background-color: red;
+}
+#site_header nav ul li:nth-child(4) > a:hover{
+  color: white;
+  background-color: #015EFF;
+}
+.create_account:hover{
+  background-color: #015EFF;
+}
+.sign_google:hover{
+  color: black;
+  font-weight: 500;
+}
 
 
 /* jumbotron */
@@ -375,6 +389,9 @@ main h2{
   color: #013BB8;
   font-weight: 500;
   font-size: 16px;
+}
+.start button:hover{
+  background: rgba(225,225,225,0.9);
 }
 
 /****** /MAIN ******/
