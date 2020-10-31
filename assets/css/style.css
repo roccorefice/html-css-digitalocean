@@ -318,6 +318,111 @@ main h2{
 }
 
 
+/* reviews */
+.reviews{
+  text-align: center;
+  background: #F3F5F9;
+  margin: auto;
+  display: block;
+}
+.swipe_centre{
+  background-color: white;
+  height: 100%;
+  min-width: 200px;
+  padding: 10px;
+  margin: 50px 0 20px 0;
+}
+.swipe_centre img{
+  width: 200px;
+  padding: 50px 0 30px 0;
+}
+.swipe_centre p{
+  color: #5b6987;
+  font-weight: 400;
+  height: 100%;
+  font-size: 20px;
+  line-height: 26px;
+}
+.swipe_centre h4, span{
+  color: #092352;
+}
+.swipe_centre h4{
+  padding-top: 10px;
+}
+.swipe_centre div{
+  padding: 20px 0 40px 0;
+}
+.reviews .fa-circle:hover{
+  background-color: #006AFF;
+  border-radius: 100%;
+}
+
+/* start */
+.start{
+  background: linear-gradient(#0048C5, #001E9A);
+  text-align: center;
+  padding: 50px;
+}
+.start h3{
+  color: white;
+  font-size: 32px;
+}
+.start button {
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  color: #013BB8;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/****** /MAIN ******/
+
+
+/****** FOOTER ******/
+#site_footer{
+  background-color: #031C4E;
+}
+.footer_left{
+  margin-top: 50px;
+}
+.footer_left div{
+  color: #76809B;
+  margin-top: 10px;
+}
+.footer_left .social{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.footer_left .social a{
+  padding-right: 10px;
+  color: #76809B;
+}
+.footer_right{
+  margin: 50px 0 50px 0;
+}
+.footer_right h4{
+  color: white;
+}
+.footer_right ul {
+  list-style: none;
+  padding: 0;
+}
+.footer_right ul li{
+  padding-bottom: 5px;
+}
+.footer_right ul li a{
+  color: #76809B;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
 
 
 
@@ -387,6 +492,12 @@ main h2{
   }
   #site_main .features .p_small{
     padding-bottom: 5px;
+  }
+  #site_main .services .test{
+    font-size: 10px;
+  }
+  #site_main .swipe_centre{
+    margin: 50px 30px 20px 30px;
   }
 
 }
