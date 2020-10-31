@@ -415,6 +415,10 @@ main h2{
 .footer_right ul li a{
   color: #76809B;
   font-weight: 500;
+  text-decoration: none;
+}
+.footer_right a:hover, .footer_left a:hover{
+  color: white;
 }
 
 
