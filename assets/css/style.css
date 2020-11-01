@@ -21,6 +21,10 @@
   height: 30px;
   margin-top: 20px;
 }
+.navbar-fixed-top{
+  background-color: white;
+  height: 80px;
+}
 .nav_menu{
   margin-top: 10px;
 }
@@ -64,6 +68,7 @@
   background-image: url("../img/bg_jumbotron.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 70px;
 }
 .banner h1{
   color: white;
@@ -203,6 +208,7 @@ main h2{
   padding-left: 100px;
 }
 .deployment_left button{
+  color: #5b6987;
   background-color: white;
   padding: 10px;
   font-size: 18px;
@@ -210,10 +216,6 @@ main h2{
   border-right: 0;
   border-bottom: 0;
   border-left: 2px solid #CCCCCC;
-}
-.deployment_left button a{
-  color: #5b6987;
-  text-decoration: none;
 }
 .deploy_button:hover button{
   border-left: 2px solid #005DFF;
@@ -438,6 +440,23 @@ main h2{
   color: white;
 }
 
+.footer_help{
+  height: 50px;
+  background-color: white;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.footer_help a {
+  font-weight: 500;
+}
+
 
 
 
@@ -470,6 +489,15 @@ main h2{
     text-align: left;
     padding-right: 80px;
     height: 110px;
+  }
+  #site_footer .footer_help{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  #site_footer{
+    padding-bottom: 70px;
   }
 
 }
@@ -505,7 +533,6 @@ main h2{
   } */
   #site_main .col-xs-12 .p_small{
     padding-bottom: 50px;
-
   }
   #site_main .deployment_left{
     padding-left: 30px;
@@ -520,16 +547,14 @@ main h2{
   #site_main .swipe_centre{
     margin: 50px 30px 20px 30px;
   }
-
-}
-
-/*** style for xs (Xsmall) screen ***/
-@media screen and (min-width: 767px){
-
-
+  #site_footer{
+    padding-bottom: 70px;
   }
-
-
-
+  #site_footer .footer_help{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
 
 }
